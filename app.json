@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "- market Aluno",
+    "slug": "--market-aluno",
+    "version": "1.0.24",
+    "orientation": "portrait",
+    "icon": "./assets/--market-icon-bg.png",
+    "splash": {
+      "image": "./assets/splash-screen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "br.com.edtech.aluno",
+      "buildNumber": "1.0.24",
+      "supportsTablet": false,
+      "icon": "./assets/--market-icon-bg.png",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Precisamos utilizar a sua câmera para possibilitar a edição da imagem do seu perfil.",
+        "NSPhotoLibraryUsageDescription": "Precisamos acessar a sua galeria para possibilitar a edição da imagem do seu perfil."
+      }
+    },
+    "android": {
+      "versionCode": 10024,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/--market-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "br.com.edtech.aluno",
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/--market-icon-bg.png"
+    }
+  }
+}

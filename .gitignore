@@ -1,0 +1,20 @@
+node_modules/**/*
+.expo/*
+.vscode/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.log
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+.idea/
+
+env.js
+.expo-shared
+--market-aluno.jks
